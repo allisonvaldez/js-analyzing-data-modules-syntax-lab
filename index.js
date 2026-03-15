@@ -19,7 +19,7 @@ function combineUsers(...args) {
   let today = Date.today();
   combinedObject.merge_date = today.toString("M/d/yyyy");
 
-  // return it
+  // return it skips 6??
   return combinedObject;
 }
 
